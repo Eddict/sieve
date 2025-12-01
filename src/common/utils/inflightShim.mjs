@@ -66,8 +66,11 @@ export function withInflightCallback(key, factory, cb, opts = {}) {
   const p = new Promise((resolve, reject) => {
     try {
       factory((err, res) => {
-        if (err) return reject(err);
-        resolve(res);
+        if (err) {
+          reject(err);
+        } else {
+          resolve(res);
+        }
       });
     } catch (ex) {
       reject(ex);
