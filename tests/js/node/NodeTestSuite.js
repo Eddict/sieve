@@ -148,7 +148,11 @@
      * @returns {string[]}
      *   the test case names.
      */
-    // eslint-disable-next-line no-unused-vars
+
+    /**
+     *
+     * @param report
+     */
     async getTests(report) {
       return await this.execute(report, "GetTests");
     }

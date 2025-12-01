@@ -263,6 +263,8 @@ SieveAbstractBlock.prototype.append
  * @param {int} [childId]
  *  the child id which should be removed.
  *
+ * @param cascade
+ * @param stop
  * @returns {}
  */
 SieveAbstractBlock.prototype.removeChild
