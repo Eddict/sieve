@@ -4,3 +4,4 @@ __pycache__/
 .venv/
 src/web/config.ini
 TEST-sieve.xml
+tmp_*
