@@ -18,6 +18,9 @@
     "gulp": "^5.0.0",
     "yazl": "^3.3.1"
   },
+  "dependencies": {
+    "lru-cache": "^10.0.0"
+  },
   "scripts": {
     "start-win32": "gulp \"app:package-win32\" && cd ./build/electron/out/sieve-win32-x64/ && sieve.exe",
     "start": "cd node_modules/.bin && electron ./../../build/electron/resources",
