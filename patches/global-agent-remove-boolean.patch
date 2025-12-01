@@ -1,0 +1,16 @@
+*** Begin Patch
+*** Add File: patches/global-agent-remove-boolean.patch
++*** From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
++*** Update File: lib/utils.js
++@@
+-const boolean = require('boolean');
++// Removed dependency on `boolean` (deprecated). Use local parseBoolean helper instead.
++function parseBoolean(v) {
++  if (v === true || v === 'true' || v === 1 || v === '1') return true;
++  if (v === false || v === 'false' || v === 0 || v === '0') return false;
++  return Boolean(v);
++}
++
++// Replace usages of `boolean(x)` with `parseBoolean(x)` throughout the codebase.
+*** End Patch
++
