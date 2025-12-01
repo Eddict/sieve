@@ -13,11 +13,21 @@ import LRUCache from 'lru-cache';
 
 const defaultCache = new LRUCache({ max: 1000 });
 
+/**
+ * Run `factory` once for a given `key` while a previous call is in-flight.
+ * Concurrent callers receive the same Promise.
+ * @param {string} key
+ * @param {() => Promise<any>} factory
+ * @param {{cache?: import('lru-cache'), ttl?: number}} [opts]
+ * @returns {Promise<any>}
+ */
 export function withInflightPromise(key, factory, opts = {}) {
   const { cache = defaultCache, ttl } = opts;
 
-  let existing = cache.get(key);
-  if (existing) return existing;
+  const existing = cache.get(key);
+  if (existing) {
+    return existing;
+  }
 
   // Call factory which should return a Promise (or be async).
   const p = (async () => {
@@ -36,12 +46,20 @@ export function withInflightPromise(key, factory, opts = {}) {
   return p;
 }
 
+/**
+ * Callback-style wrapper: `factory` must call a node-style callback `(err, res)`.
+ * Concurrent callers receive the same result via callback.
+ * @param {string} key
+ * @param {(cb: (err: any, res?: any) => void) => void} factory
+ * @param {(err: any, res?: any) => void} cb
+ * @param {{cache?: import('lru-cache'), ttl?: number}} [opts]
+ */
 export function withInflightCallback(key, factory, cb, opts = {}) {
   const { cache = defaultCache, ttl } = opts;
 
-  let existing = cache.get(key);
+  const existing = cache.get(key);
   if (existing) {
-    existing.then((res) => cb(null, res)).catch(cb);
+    existing.then((res) => { cb(null, res); }).catch((err) => { cb(err); });
     return;
   }
 
@@ -59,7 +77,7 @@ export function withInflightCallback(key, factory, cb, opts = {}) {
   if (typeof ttl === 'number' && ttl > 0) cache.set(key, p, { ttl });
   else cache.set(key, p);
 
-  p.then((res) => cb(null, res)).catch(cb);
+  p.then((res) => { cb(null, res); }).catch((err) => { cb(err); });
 }
 
 export default {
