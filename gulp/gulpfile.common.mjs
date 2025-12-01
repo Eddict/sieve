@@ -1,6 +1,6 @@
 /*
  * The content of this file is licensed. You may obtain a copy of
- * the license at https://github.com/thsmi/sieve/ or request it via
+ * the license at https://github.com/Eddict/sieve/ or request it via
  * email from the author.
  *
  * Do not remove or change this comment.
@@ -356,8 +356,8 @@ async function updateVersion() {
 
   data["addons"]["sieve@mozdev.org"]["updates"].unshift({
     "version" : version,
-    "update_link": `https://github.com/thsmi/sieve/releases/download/${version}/sieve-${version}.xpi`,
-    "update_info_url": `https://github.com/thsmi/sieve/releases/tag/${version}`,
+    "update_link": `https://github.com/Eddict/sieve/releases/download/${version}/sieve-${version}.xpi`,
+    "update_info_url": `https://github.com/Eddict/sieve/releases/tag/${version}`,
     "browser_specific_settings": {
       "gecko": { "strict_min_version": "68.0a1" }
     }

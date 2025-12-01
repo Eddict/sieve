@@ -1,13 +1,13 @@
 ## Bugs and feature request
 
 The preferred way to report bugs and feature request is to use the
-[GitHub issue tracker](http://github.com/thsmi/sieve/issues).
+[GitHub issue tracker](http://github.com/Eddict/sieve/issues).
 
 But you can also send an email to schmid-thomas at gmx.net
 
 In order to process bugs faster consider the following:
 
-* Try if the [most recent nightly build](https://github.com/thsmi/sieve/wiki/FAQ---General-Questions#nightly-build-artifacts) fixes your issue.
+* Try if the [most recent nightly build](https://github.com/Eddict/sieve/wiki/FAQ---General-Questions#nightly-build-artifacts) fixes your issue.
 
 * Check if you issue is already reported. The list with open issues is small.
   Try to avoid to duplicate an issue. It slows down the development.
@@ -44,9 +44,9 @@ I'll merge crowdin translation prior to a release into the source tree.
 
 * Make sure you have a [GitHub Account](https://github.com/signup/free)
 
-* Fork [Sieve](https://github.com/thsmi/sieve/)
+* Fork [Sieve](https://github.com/Eddict/sieve/)
   ([How to fork a repo](https://help.github.com/articles/fork-a-repo))
-  
+
 * Make your changes
 
 * Submit a pull request

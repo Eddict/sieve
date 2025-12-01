@@ -1,1 +1,1 @@
-[Moved to the wiki](https://github.com/thsmi/sieve/wiki/Roadmap)
+[Moved to the wiki](https://github.com/Eddict/sieve/wiki/Roadmap)

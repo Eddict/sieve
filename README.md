@@ -31,29 +31,29 @@ Now in 2020 classic Thunderbird addons are dead. Which meant for the addon it ne
 
 The project is actively developed. The focus shifted from a thunderbird addon to a portable standalone app.
 
-Status and future development plans are described in the [Roadmap](https://github.com/thsmi/sieve/wiki/Roadmap). The [Capabilities page](https://github.com/thsmi/sieve/wiki/Capabilities) contains a list of all supported sieve and manage sieve features.
+Status and future development plans are described in the [Roadmap](https://github.com/Eddict/sieve/wiki/Roadmap). The [Capabilities page](https://github.com/Eddict/sieve/wiki/Capabilities) contains a list of all supported sieve and manage sieve features.
 
 Project statistics are available at
-[Open Hub](https://www.openhub.net/p/thsmi-sieve).
+[Open Hub](https://www.openhub.net/p/eddict-sieve).
 
 A big thank you to everyone who has [contributed and supported](CONTRIBUTORS.md) the project.
 
 If you want to support the project consider donating
 
 * code, patches or localizations
-* via Paypal [![PayPayl donate button](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://paypal.me/thsmi "Donate to this project using Paypal")
+* via Paypal [![PayPayl donate button](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://paypal.me/Eddict "Donate to this project using Paypal")
 * via Bitcoin [1GEnrRVobFYuqYj2opdvRQNtG3Z8znvfKw](bitcoin:1GEnrRVobFYuqYj2opdvRQNtG3Z8znvfKw?label=Donation%20for%20Sieve%20Addon)
 
 ## FAQ, Bugs and Contributing
 
-Answers for [frequently asked question](https://github.com/thsmi/sieve/wiki) can be found in the [Wiki section](https://github.com/thsmi/sieve/wiki). Please make sure you read those pages before raising a bug report.
+Answers for [frequently asked question](https://github.com/Eddict/sieve/wiki) can be found in the [Wiki section](https://github.com/Eddict/sieve/wiki). Please make sure you read those pages before raising a bug report.
 
 For more details on contributing refer to the
-[Contributing Guidelines](https://github.com/thsmi/sieve/blob/master/CONTRIBUTING.md).
+[Contributing Guidelines](https://github.com/Eddict/sieve/blob/master/CONTRIBUTING.md).
 
 Concerning bug reports please use the
-[issue tracker](https://github.com/thsmi/sieve/issues) or send a private email
-to `schmid-thomas at gmx.net`. Please read and understand the [Contributing Guidelines](https://github.com/thsmi/sieve/blob/master/CONTRIBUTING.md) before creating an issue.
+[issue tracker](https://github.com/Eddict/sieve/issues) or send a private email
+to `schmid-thomas at gmx.net`. Please read and understand the [Contributing Guidelines](https://github.com/Eddict/sieve/blob/master/CONTRIBUTING.md) before creating an issue.
 
 Give me 1-2 weeks for a reply. If you did not receive a reply at all, it
 might be a good idea to check your spam filter.
@@ -64,23 +64,23 @@ The code is licensed as free and open source software. It is made available to y
 [GNU Affero General Public License (AGPLv3)](http://www.fsf.org/licensing/licenses/agpl-3.0.html).
 
 Refer to
-[Licensing information](https://github.com/thsmi/sieve/blob/master/LICENSING_INFO.md)
+[Licensing information](https://github.com/Eddict/sieve/blob/master/LICENSING_INFO.md)
 for details about third party licenses included into this project.
 
 ## Releases
 
 You are looking for the most recent release?
 
-[They are available by downloading from the Releases page (release notes can also be viewed)](https://github.com/thsmi/sieve/releases).
+[They are available by downloading from the Releases page (release notes can also be viewed)](https://github.com/Eddict/sieve/releases).
 
 
-You are just intrerrested how the graphical editor looks like prior installing the app or the webextension? Then head over to the demo page at https://thsmi.github.io/sieve-demo/ it features the Graphical Editor UI running inside a plain browser. But keep in mind this demo is only the graphical editor which can not connect to a sieve backend.
+You are just intrerrested how the graphical editor looks like prior installing the app or the webextension? Then head over to the demo page at https://eddict.github.io/sieve-demo/ it features the Graphical Editor UI running inside a plain browser. But keep in mind this demo is only the graphical editor which can not connect to a sieve backend.
 
 ## Continuous Builds
 
 Continuous builds are triggered upon each change to the master. You can find them in the Azure DevOp Pipeline.
 
-| Windows <br> [![Build Status](https://img.shields.io/azure-devops/tests/thsmi/sieve/4) ![Test Status](https://img.shields.io/azure-devops/build/thsmi/sieve/4)](https://dev.azure.com/thsmi/sieve/_build/latest?definitionId=4&branchName=master) | Linux <br> [![Build Status](https://img.shields.io/azure-devops/tests/thsmi/sieve/2) ![Test Status](https://img.shields.io/azure-devops/build/thsmi/sieve/2)](https://dev.azure.com/thsmi/sieve/_build/latest?definitionId=2&branchName=master) | macOS <br> [![Build Status](https://img.shields.io/azure-devops/tests/thsmi/sieve/6) ![Test Status](https://img.shields.io/azure-devops/build/thsmi/sieve/6)](https://dev.azure.com/thsmi/sieve/_build/latest?definitionId=6&branchName=master) | WebExtension <br>[![Build Status](https://img.shields.io/azure-devops/tests/thsmi/sieve/5) ![Test Status](https://img.shields.io/azure-devops/build/thsmi/sieve/5)](https://dev.azure.com/thsmi/sieve/_build/latest?definitionId=5&branchName=master) |
+| Windows <br> [![Build Status](https://img.shields.io/azure-devops/tests/eddict/sieve/4) ![Test Status](https://img.shields.io/azure-devops/build/eddict/sieve/4)](https://dev.azure.com/eddict/sieve/_build/latest?definitionId=4&branchName=master) | Linux <br> [![Build Status](https://img.shields.io/azure-devops/tests/eddict/sieve/2) ![Test Status](https://img.shields.io/azure-devops/build/eddict/sieve/2)](https://dev.azure.com/eddict/sieve/_build/latest?definitionId=2&branchName=master) | macOS <br> [![Build Status](https://img.shields.io/azure-devops/tests/eddict/sieve/6) ![Test Status](https://img.shields.io/azure-devops/build/eddict/sieve/6)](https://dev.azure.com/eddict/sieve/_build/latest?definitionId=6&branchName=master) | WebExtension <br>[![Build Status](https://img.shields.io/azure-devops/tests/eddict/sieve/5) ![Test Status](https://img.shields.io/azure-devops/build/eddict/sieve/5)](https://dev.azure.com/eddict/sieve/_build/latest?definitionId=5&branchName=master) |
 |---------|-------|-------|--------------|
 
-Click on the test or build status to see more details or to [download nightly build Artifacts](https://github.com/thsmi/sieve/wiki/FAQ---General-Questions#nightly-build-artifacts). The later can be accessed by selecting a build and then clicking on "Published" in the "Related" section.
+Click on the test or build status to see more details or to [download nightly build Artifacts](https://github.com/Eddict/sieve/wiki/FAQ---General-Questions#nightly-build-artifacts). The later can be accessed by selecting a build and then clicking on "Published" in the "Related" section.

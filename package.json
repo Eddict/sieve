@@ -32,12 +32,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thsmi/sieve.git"
+    "url": "git+https://github.com/Eddict/sieve.git"
   },
   "author": "Thomas Schmid <schmid-thomas@gmx.net>",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/thsmi/sieve/issues"
+    "url": "https://github.com/Eddict/sieve/issues"
   },
-  "homepage": "https://github.com/thsmi/sieve#readme"
+  "homepage": "https://github.com/Eddict/sieve#readme"
 }

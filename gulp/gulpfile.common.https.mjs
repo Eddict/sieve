@@ -1,6 +1,6 @@
 /*
  * The content of this file is licensed. You may obtain a copy of
- * the license at https://github.com/thsmi/sieve/ or request it via
+ * the license at https://github.com/Eddict/sieve/ or request it via
  * email from the author.
  *
  * Do not remove or change this comment.
@@ -67,7 +67,7 @@ async function fetch(url) {
     //
     // https://developer.github.com/v3/#user-agent-required
 
-    const options = {headers: { 'User-Agent': 'thsmi-sieve' }};
+    const options = {headers: { 'User-Agent': 'eddict-sieve' }};
     https.get(url, options, async function (response) {
 
       try {
@@ -119,7 +119,7 @@ async function download(url, destination) {
     //
     // https://developer.github.com/v3/#user-agent-required
 
-    const options = {headers: { 'User-Agent': 'thsmi-sieve' }};
+    const options = {headers: { 'User-Agent': 'eddict-sieve' }};
 
     https.get(url, options, async function (response) {
 

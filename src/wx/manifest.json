@@ -13,7 +13,7 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "sieve@mozdev.org",
-      "update_url": "https://thsmi.github.io/sieve/update.json",
+      "update_url": "https://eddict.github.io/sieve/update.json",
       "strict_min_version": "68.0a1"
     }
   },

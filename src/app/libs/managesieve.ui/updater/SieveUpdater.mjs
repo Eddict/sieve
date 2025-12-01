@@ -1,6 +1,6 @@
 /*
  * The content of this file is licensed. You may obtain a copy of
- * the license at https://github.com/thsmi/sieve/ or request it via
+ * the license at https://github.com/Eddict/sieve/ or request it via
  * email from the author.
  *
  * Do not remove or change this comment.
@@ -10,7 +10,7 @@
  */
 
 
-const SIEVE_GITHUB_UPDATE_URL = "https://thsmi.github.io/sieve/update.json";
+const SIEVE_GITHUB_UPDATE_URL = "https://eddict.github.io/sieve/update.json";
 const MAJOR_VERSION = 0;
 const MINOR_VERSION = 1;
 const PATCH_VERSION = 2;
